@@ -8,9 +8,6 @@ non_encrypted = input("Please enter the text you wish to encrypt: ")
 x = 0
 y = ROT
 
-
-print(y+x)
-
 for i in range(ROT):
     iterable_alphabet = iterable_alphabet + iterable_alphabet
 
