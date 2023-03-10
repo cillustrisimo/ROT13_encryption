@@ -6,7 +6,6 @@ ROT = int(input("Please enter desired number to ROT: "))
 non_encrypted = input("Please enter the text you wish to encrypt: ")
 
 x = 0
-b = 0
 y = ROT
 
 
