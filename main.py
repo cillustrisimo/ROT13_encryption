@@ -40,7 +40,6 @@ elif user_choice == "decode":
         for ranges in range(max_range_ROT):
             iterable_alphabet = iterable_alphabet + iterable_alphabet
 
-        print(iterable_alphabet)
         max_range_ROT = max_range_ROT + 1
 
         rot_alphabets = {}
@@ -52,7 +51,6 @@ elif user_choice == "decode":
                 rot_alphabet.append(iterable_alphabet[x + y])
                 x = x + 1
                 rot_alphabets[f"rot{ranges}"] = rot_alphabet
-        print(rot_alphabets)
         rot_alphabet_keys = {}
         for i in range(min_range_ROT, max_range_ROT):
             rot_alphabet_keys[f"rot{i}"] = dict(zip(rot_alphabets[f"rot{i}"], alphabet_key))
