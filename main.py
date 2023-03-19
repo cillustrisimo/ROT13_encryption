@@ -1,3 +1,8 @@
+import pyfiglet
+
+ascii_banner = pyfiglet.figlet_format("CEASAR CYPHER \n EN // DECODER")
+print(ascii_banner)
+
 iterable_alphabet = "abcdefghijklmnopqrstuvwxyz"
 rot_alphabet = []
 alphabet_key = list(iterable_alphabet)
