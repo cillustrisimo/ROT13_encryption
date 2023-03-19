@@ -3,7 +3,7 @@
 ![program](ceasar.png)
 
 ---
-At this point, I should probably just rename this to "Ceasar Cipher Decoder", mainly because I know better now (decoding != decrypting) and it has broader use cases. I even put sick ascii art in the program that says the new name. However, I don't wanna mess with my repo too much... 
+At this point, I should probably just rename this to "Ceasar Cipher Decoder", mainly because I know better now (decoding != decrypting) and it has broader use cases. I even put ascii art in the program that says the new name. However, I don't wanna mess with my repo too much... 
 
 In anycase, this is a simple script that can encode or decode any given text to the ROT(X) of your choice.
 
